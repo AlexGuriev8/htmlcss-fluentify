@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  width: 70%;
+  max-width: 1200px;
+  margin: 0 auto;
+  /* da cancellare */
+  height: 100%;
+  background-color: orange;
+  border: 5px solid white;
+}
+.blu {
+background-color: #0c325a;
+  /* da cancellare */
+  height: 400px;
+  }
+nav {
+  height: 70px;
+  background-color: powderblue;
+}
+.grigio {
+  background-color: #d3d3d3;
+  /* da cancellare */
+  height: 100px;
+}
+.bianco {
+background-color: white;
+/* da cancellare */
+height: 400px;
+}
+.box {
+  width: 33.3333%;
+  height: 100%;
+  border: 1px solid white;
+  float: left;
+}
